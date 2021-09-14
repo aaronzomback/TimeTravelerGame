@@ -4,7 +4,7 @@ Image by Casey Horner from unsplash.com
 
 ## About
 
-Travel the depths of space and time with CloudR45, a friendly AI agent whose mission is to introduce you to time travel.
+Join your travel agent CloudR45 and journey through the depths of space and time for encounters with historical figures such as Genghis Khan and Napoleon.
 
 ## Structure & Design Principles
 

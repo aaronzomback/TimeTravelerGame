@@ -12,16 +12,17 @@ describe GameNode do
       root_node.display(welcome)
     end
 
-    it "shows the correct display" do
-      expect(root_node.text).to eq(welcome)
-    end 
-  end
+    it "shows the correct display text input" do
+      allow(root_node).to receive(:text).and_return("hello")
+      expect(root_node.text).to eq("hello")
+    end
+  end 
 
   describe "#quit" do
     before do
       root_node.quit 
     end 
-    it "should exit" do
+    it "should exit on quit" do
       expect(root_node.quit).to eq(true)
     end
   end 

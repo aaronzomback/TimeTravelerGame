@@ -4,7 +4,7 @@ Image by Casey Horner from unsplash.com
 
 ## About
 
-Join your travel agent CloudR45 and journey backwards and forwards through the depths of space and time for encounters with historical figures such as Genghis Khan and Napoleon.
+Join your travel agent CloudR45 and journey backwards and forwards through the depths of space and time for encounters with historical figures such as Genghis Khan and Napoleon. Who knows maybe ... all the information from history really can be contained in a tiny CLI app written in Ruby.
 
 ## Structure & Design Principles
 

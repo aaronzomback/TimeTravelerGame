@@ -18,8 +18,8 @@ CENTURY_19TH_GAME_OVER = " > G A M E O V E R...You stumbled into the snow and fr
 
 CENTURY_22ND_TEXT = " > Et voilá! You're now in the 22nd century! It's the year 2163 and Livestream's holographic AI technology is helping you fight invading robots. What do you do?"
 CENTURY_22ND_OPTION = ['Help Livestorm fight the robots', 'Switch sides and join the robots']
-CENTURY_22ND_GAME_OVER = "G A M E O V E R. There's no time for cowards!"
-GAME_WINNER = " > Congratulations you've helped Livestorm defeat the invading robots! Would you like to play again?"
+CENTURY_22ND_GAME_OVER = " > G A M E O V E R. There's no time for cowards! Would you like to play again?"
+GAME_WINNER = " > Congratulations you've won! You helped Livestorm defeat the invading robots! Would you like to play again?"
 
 class TimeTraveler
   def build
@@ -86,10 +86,24 @@ class TimeTraveler
                     option "jump" do
                       display CENTURY_22ND_TEXT
                         option "hide" do
-                          CENTURY_22ND_GAME_OVER
+                          display CENTURY_22ND_GAME_OVER
+                            option "yes" do
+                              play_again
+                            end
+                            option "no" do
+                              display "Au revoir!"
+                              quit
+                            end     
                         end 
                         option "fight" do
-                          GAME_WINNER
+                          display GAME_WINNER
+                            option "yes" do
+                              play_again
+                            end
+                            option "no" do
+                              display "Au revoir!"
+                              quit
+                            end     
                         end 
                     end
                     option "drink vodka" do

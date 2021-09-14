@@ -58,6 +58,8 @@ A tree like structure seemed to be a practical solution to structure the data. E
 
 ## Running and Setup
 
+The CLI application is built on ruby 2.7.0. To run, make sure you have ruby installed and run the following commands to setup:
+
 In root run ```bundle install``` and then ```ruby play.rb``` to start the game.
 
 ## Testing

@@ -19,7 +19,7 @@ The stucture can be divided into 3 classes:
 
 ### Making it readable
 
-Refactoring to DSL (Domain Specific Language). 
+Refactoring to DSL (Domain Specific Language). The beauty of Ruby.
 
 For example, instead of:
 

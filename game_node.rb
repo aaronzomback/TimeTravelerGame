@@ -6,5 +6,9 @@ class GameNode
     if block_given?
         instance_eval(&blk)
     end
-end
+  end
+
+  def display(text)
+    @text = text
+  end
 end

@@ -4,7 +4,7 @@ Image by Casey Horner from unsplash.com
 
 ## About
 
-Join your travel agent CloudR45 and journey through the depths of space and time for encounters with historical figures such as Genghis Khan and Napoleon.
+Join your travel agent CloudR45 and journey backwards and forwards through the depths of space and time for encounters with historical figures such as Genghis Khan and Napoleon.
 
 ## Structure & Design Principles
 

@@ -12,9 +12,9 @@ describe TimeTraveler do
       expect(root_node).to have_attributes(options: [], ask: nil)
     end
     it "shows the correct display" do
-      p root_node.inspect
-      p root_node.text
-    end 
+      allow(root_node).to receive(:text).and_return("hello")
+      expect(root_node.text).to eq("hello")
+    end
   end 
 end
 

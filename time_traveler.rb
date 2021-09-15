@@ -5,6 +5,7 @@ CURRENT_TIME = Time.now.strftime('%d %b %Y %I:%M %p')
 class TimeTraveler
   def build
 
+    # restart game after victory or loss
     play_again = TimeTraveler.new
 
     GameNode.new do

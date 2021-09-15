@@ -5,7 +5,9 @@ describe GameNode do
 
   let(:welcome) { "Welcome to GameNode!" }
   let(:root_node) do
+
     GameNode.new do
+
       display "welcome"
 
       option "yes" do
@@ -27,12 +29,12 @@ describe GameNode do
 
 
 
-  describe "a simple game" do
+  describe "setting a simple game" do
     subject do
       root_node
     end
 
-    it "has the right tree struct" do
+    it "has the correct tree struct" do
       expect(root_node.text).to eq 'welcome'
       expect(root_node.options.size).to eq 2
       expect(root_node.options[0].ask).to eq 'yes'

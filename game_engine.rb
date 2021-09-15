@@ -1,4 +1,5 @@
 
+
 class GameEngine
   def initialize(root)
       @root = root
@@ -12,7 +13,11 @@ class GameEngine
 
   def execute(root)
       puts(root.text)
+
       options = root.options.map(&:ask)
+
+      root.options.map { |value| value.ask }
+
 
       if root.quit?         
         abort
@@ -26,6 +31,8 @@ class GameEngine
           puts "option not found. try again"
           option = gets.strip
       end
+
+
       execute(root.options.find { |o| o.ask == option })
   end
 

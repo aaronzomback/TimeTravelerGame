@@ -1,4 +1,4 @@
-# TimeTraveler
+# Time-Traveler
 ![casey-horner-265UjRsLgd8-unsplash 1](https://user-images.githubusercontent.com/63470294/133330968-b3bea8aa-aadf-426f-bf0c-ab705739e6a3.png)
 Image by Casey Horner from unsplash.com
 
